@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="title_back" format="color|reference"/>
+    <attr name="title_txt" format="color|reference"/>
+    <attr name="title_bg" format="color|reference"/>
+</resources>

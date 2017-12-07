@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="?title_bg"
+    android:orientation="horizontal">
+    <FrameLayout
+        android:id="@+id/nav_left"
+        android:layout_width="50dp"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/nav_left_img"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp"
+            android:src="?title_back"/>
+        <TextView
+            android:id="@+id/nav_left_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="?title_txt"
+            android:textSize="16sp"
+            android:visibility="gone"/>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/nav_title"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="?title_txt"
+        tools:text="测试长标题看看长的什么样"
+        android:singleLine="true"
+        android:textSize="16sp"/>
+
+
+    <FrameLayout
+        android:id="@+id/nav_right"
+        android:layout_width="50dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/nav_right_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="保存"
+            android:textColor="?title_txt"
+            android:textSize="16sp"
+            android:visibility="gone"/>
+    </FrameLayout>
+</LinearLayout>
